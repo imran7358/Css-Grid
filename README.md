@@ -17,3 +17,22 @@
 <li>we need to include another CSS mechanism like Floats, Vertical alignment of text/elements and other hacks with Margin, Padding to create the accurate/desired layout</li>
 <li><code>CSS Flexible Box Layout Module (Flexbox),</code> makes it easier to design flexible responsive layout structure without using float or positioning</li>
 </ul>
+<h2 style="margin:20px 0">Why CSS Grid?</h2>
+<p>Grid/CSS Grid Layout provides lots of flexibilities while creating complex layouts like:</p>
+<ul>
+  <li>CSS Grid is a new way of creating layouts, the first time a proper layout system available natively in the browser with tons of benefits</li>
+  <li>Grid is a new CSS display type designed to craft CSS layouts in a much easier way</li>
+  <li>No CSS Float used</li>
+  <li>Offers ultimate flexibility to create complex layouts without using extra markup or containers or floats</li>
+  <li>Helps to create a nested Grid layout and place them on a webpage</li>
+  <li>Arrange items from left to right or top to bottom and vice versa</li>
+  <li>Adjust the spacing between objects</li>
+  <li>Position and alignments of items</li>
+  <li>Order and placements of various elements</li>
+  <li>Improve the items alignment, directions and order in the container even when they are with dynamic or even unknown size</li>
+  <li>Equal height columns</li>
+  <li>Ability to modify the width or height of its children to fill the available space in the best possible way on different screen sizes</li>
+  <li>Control the position, size, and spacing of child elements relative to parent container and other child elements</li>
+  <li>CSS Grid works great responsively (RWD - Responsive Web Design)</li>
+  <li>Responsive and Mobile friendly</li>
+</ul>
