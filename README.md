@@ -7,4 +7,7 @@
   <ol>
   <li><code>Block</code>for a block element its cover a block</li>
   <li><code>Inline</code>for a inline element showing element in sigle line.</li>
+    <li><code>Table</code>for tow-dimensional tabular data</li>
+  <li><code>Positions</code>for the explicit position of an element</li>
+   <li><code>Flexbox</code>one-dimensional grid layout</li>
   </ol>
