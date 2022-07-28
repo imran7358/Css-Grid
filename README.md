@@ -36,3 +36,5 @@
   <li>CSS Grid works great responsively (RWD - Responsive Web Design)</li>
   <li>Responsive and Mobile friendly</li>
 </ul>
+<h2 style="margin:20px 0">Browser support</h2>
+<p>The CSS Grid properties are supported in all modern browsers:</p>
