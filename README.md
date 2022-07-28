@@ -6,5 +6,5 @@
   <p style="font-size:14px">Before Grid there were 5 lyout model</p>
   
   <ul>
-  <li>Block<li>
+  <li>1)<code>Block</code><li>
   <ul>
