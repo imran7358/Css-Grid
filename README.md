@@ -40,5 +40,5 @@
 <p>The CSS Grid properties are supported in all modern browsers:</p>
 <h2 style="margin:20px 0">CSS Grid Layout Properties</h2>
 <ul>
-  <li><code><strong>display:grid</strong></code> (CSS property/style which converts an HTML element to a grid container - display: grid or inline-grid)</li>
+  <li><code><strong>display:grid</strong></code> (CSS property/style which converts an HTML element to a grid container <code><em>- display: grid or inline-grid<em></code>)</li>
 </ul>
