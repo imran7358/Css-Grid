@@ -5,6 +5,6 @@
   <h2 style="margin:20px 0">Layout Mode</h2>
   <p style="font-size:14px">Before Grid there were 5 lyout model</p>
   
-  <ul style="list-style-type:none">
-  <li>1)<code>Block</code><li>
-  <ul>
+  <ol style="list-style-type:none">
+  <li><code>Block</code><li>
+  </ol>
