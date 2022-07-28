@@ -41,4 +41,24 @@
 <h2 style="margin:20px 0">CSS Grid Layout Properties</h2>
 <ul>
   <li><code><strong>display:grid</strong></code> (CSS property/style which converts an HTML element to a grid container <code><em>- display: grid or inline-grid<em></code>)</li>
+    <li>
+      <code><strong> Grid Container</storng></code> (Direct Parent/Container to hold sub-items, to the container we apply <code><em>display: grid or inline-grid</em></code> property)
+    </li>
+    <li><code><storng>Grid Items</storng></code> (Child/sub-items [direct descendants] within Container - All direct children of the <code>grid container</code> automatically become <code>grid items</code>)</li>
+    <li>
+      <code><strong>Grid Column</strong></code> (The vertical series-part/portrait lines of the grid, table, chart or spreadsheet. CSS property is <code>grid-template-columns</code>)
+    </li>
+    <li><code><strong>Grid Row</strong></code> (The horizontal series-part/landscape lines of the grid, table, chart or spreadsheet. CSS property is <code>grid-template-rows</code>)</li>
+    <li><code><srong>Grid Gaps</strong></code> (The spaces (margin or cell-spacing) between each column/row. CSS property is <code>grid-column-gap</code> and <code>grid-row-gap</code>)</li>
+    <li><code><strong>Grid Line </strong></code>(The lines between columns/rows, the dividing lines that make up the structure of the grid. CSS property is <code><em>grid-column-start</em></code> , <code><em>grid-column-end</em></code> and <code><em>grid-row-start</em></code>, <code><em>grid-row-end</em></code>)</li>
+    <li><code><strong>Grid Track </strong></code>(A grid track is a space between 2 adjacent grid lines, they are the rows and columns of your grid)</li>
+    <li><code><strong>Grid Cell</strong></code> (A box/intersection point where the column and row get insects it creates a box/cell like a table cell, A grid cell is the space between 2 adjacent row grid lines and 2 adjacent column grid lines)</li>
+    <li><code><strong>Grid Area</strong></code> (The total space surrounded by four grid lines, A grid area is made up of 1 or more grid cells, and is bound by 4 grid lines on each side of the grid area. CSS property is grid-item = grid-area, grid-container = grid-template-areas)</li>
+    <li><code><strong>The fr Unit </strong></code>(The new <code><em>fr unit (fractional unit)</em></code> represents a fraction of the available space or free space available in the grid container. Simply available space is nothing but free space so you can also consider fr as free space. CSS property is <code><em>grid-template-columns/rows: 1fr 1fr 1fr</em></code>)</li>
+    <li>
+      <code><strong>Explicit Column/Row</strong></code> Any Column or Row created as per needs and requirements with property <code><em>grid-template-columns</em></code> and <code><em>grid-template-rows</em></code> respectively (Explicit = Developer or User defines how many Columns or Rows required)
+    </li>
+    
+    <li><code><em>Implicit Column/Row </em></code> Auto-generated Column/Row. grid-auto-columns and grid-auto-rows property used to handle/control/size any auto-generated grid tracks ie. implicit grid (Implicit = Automatically generated Column/Row. [Total Grid Items are 10, we defined 2 columns and 2 Rows with grid-template-columns and grid-template-rows property, so 4 items are Explicit and rest 6 items are Implicit])</li>
+    
 </ul>
