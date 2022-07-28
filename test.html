@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>::Mohammad Imran</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+        <style>
+            :root{
+                --primary-color:red;
+                --bg-color:black;
+                --font-family: 'Poppins', sans-serif;
+                --font-bold:900;
+                --font-14:14px;
+                --br-radius:3px;
+                --footer-bg: #f27935
+            }
+            .header{background: var(--bg-color);}
+            .display-grid{display: grid;gap: 20px;grid-template-columns:15% 85%;
+                grid-template-areas: 'menu header header header header header'
+                'menu conatiner conatiner conatiner conatiner conatiner '
+                'menu footer footer footer footer footer'
+                ;
+            }
+            .main-wrapper{max-width: 1680px; min-width: 980px; margin: 0 auto;}
+            .menu{grid-area: menu;background: #ededed; border-radius: 3px; padding: 10px;}
+           .header{grid-area:header;background: #82bfff;border-radius: var(--br-radius);padding: 10px;}
+           .conatiner{grid-area:conatiner;}
+           .footer{grid-area: footer;background-color: var(--footer-bg);border-radius:var(--br-radius);  justify-items: center;}
+           .nav{display: grid;list-style-type: none;margin: 0;padding:0;}
+           .nav li a{padding: 10px;list-style-type: none;text-decoration: none;color: #333;display: inline-block;}
+           .font-cls{font-family: var(--font-family);}
+           .w-bold{font-weight: var(--font-bold);}
+           .f-14{font-size: var(--font-14);}
+           .d-grid{display: grid;}
+           .align-ce{justify-content: center;}
+       
+           
+        </style>
+    </head>
+    <body>
+        <div class="display-grid main-wrapper">
+           <div class="menu">
+            <ul class="nav font-cls w-bold f-14">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+           </div>
+           <div class="header">Header</div>
+           <div class="conatiner">
+            <p class="f-14 font-cls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+           </div>
+           <div class="footer">
+            <p class="d-grid align-ce f-14 font-cls">© 2022 Hyblockcapital All Rights Reserved -v0.8.0</p>
+           </div>
+        </div>
+    </body>
+</html>
